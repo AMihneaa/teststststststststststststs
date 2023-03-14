@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/LogInRegister.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="content" id="content">
+            <div class="login">
+                <form class="form">
+                    <label for="chk" aria-hidden="true" class="loginf" id="logLabel">Log in</label>
+                    <input class="input" type="email" name="email" id="logInp" placeholder="Email" required="">
+                    <input class="input" type="password" name="pswd" id="logInp" placeholder="Password" required="">
+                    <button class="cssbuttons-io-button"> Log In
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path fill="currentColor"
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z">
+                                </path>
+                            </svg>
+                        </div>
+                    </button>
+                </form>
+            </div>
+
+            <div class="register" id="register">
+                <form class="form">
+                    <label for="chk" aria-hidden="true" class="registerf" id="regLabel">Register</label>
+                    <input class="input" id="regInp" type="text" name="txt" placeholder="Username" required="">
+                    <input type="text" id="regInp" name="NrPhone" placeholder="Numar de telefon" required>
+                    <input class="input" id="regInp" type="email" name="email" placeholder="Email" required="">
+                    <input class="input" id="regInp" type="password" name="pswd" placeholder="Password" required="">
+                    <input type="password" id="regInp" name="cfpswd" , placeholder="Confirmare parola">
+                    <button class="cssbuttons-io-button" id="buttonReg"> Register
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path fill="currentColor"
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z">
+                                </path>
+                            </svg>
+                        </div>
+                    </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="/src/js/LogInRegister.js"></script>
+
+</html>
