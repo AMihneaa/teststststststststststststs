@@ -10,7 +10,7 @@ section {
 }
 
 section:nth-child(1) {
-  background-image: url("/src/img/donare-poza-pc.jpg");
+  background-image: url("/img/Donare\ sange_cover.jpg");
   background-size: cover;
   height: 100vh;
 }
@@ -38,7 +38,7 @@ section:nth-child(5) {
 
 footer {
   height: 500px;
-  background-color: #00f;
+  /* background-color: #00f; */
 }
 
 span {

@@ -22,6 +22,10 @@
   background-color: rgba(0, 0, 0, 0.508);
 }
 
+.navbar-element:hover {
+  transform: translateX(0);
+}
+
 .navbar-element > h2 {
   display: block;
   margin: auto;

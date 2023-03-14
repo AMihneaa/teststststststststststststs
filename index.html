@@ -7,12 +7,12 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
-	<link rel="stylesheet" href="/src/css/style.css">
-	<link rel="stylesheet" href="/src/css/calendar.css">
-	<link rel="stylesheet" href="/src/css/navbar.css">
-	<link rel="stylesheet" href="/src/css/informatii.css">
-	<link rel="stylesheet" href="/src/css/despre.css">
-	<link rel="stylesheet" href="/src/css/footer.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/calendar.css">
+	<link rel="stylesheet" href="/css/navbar.css">
+	<link rel="stylesheet" href="/css/informatii.css">
+	<link rel="stylesheet" href="/css/despre.css">
+	<link rel="stylesheet" href="/css/footer.css">
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
@@ -31,7 +31,7 @@
 
 			<div class="calendar-div">
 				<div class="calendar-div-stanga">
-					<img class="calendar-svg" src="./img/calendar-svg.svg" alt="">
+					<img class="calendar-svg" src="/img/calendar-svg.svg" alt="">
 					<div class="calendar-div-stanga-text">
 						<h1 class="calendar-text">Nu te-ai programat inca? Programeaza-te acum!</h1>
 						<!-- HTML !-->
@@ -46,7 +46,7 @@
 				</div>
 			</div>
 			<div class="calendar-div-tel">
-				<img class="calendar-svg" src="./img/calendar-svg.svg" alt="">
+				<img class="calendar-svg" src="/img/calendar-svg.svg" alt="">
 				<div class="calendar-div-text-tel">
 					<h1 class="calendar-text">Nu te-ai programat inca? Programeaza-te acum!</h1>
 					<!-- HTML !-->
@@ -178,19 +178,19 @@
 			</div>
 			<div class="container">
 				<div class="card">
-					<img src="/src/img/prost2" alt="Person" class="card__image">
+					<img src="/img/prost2" alt="Person" class="card__image">
 					<p class="card__name">Teodor Furtuna Gabriel</p>
 				</div>
 				<div class="card">
-					<img src="/src/img/prost.jpg" alt="Person" class="card__image">
+					<img src="/img/prost.jpg" alt="Person" class="card__image">
 					<p class="card__name">Teodor Furtuna Cristian</p>
 				</div>
 				<div class="card">
-					<img src="/src/img/prost.jpg" alt="Person" class="card__image">
+					<img src="/img/prost.jpg" alt="Person" class="card__image">
 					<p class="card__name">Teodor Furtuna Ionut</p>
 				</div>
 				<div class="card">
-					<img src="/src/img/prost.jpg" alt="Person" class="card__image">
+					<img src="/img/prost.jpg" alt="Person" class="card__image">
 					<p class="card__name">Teodor Furtuna Ionut</p>
 				</div>
 			</div>
@@ -292,15 +292,21 @@
 		<div class="navbar">
 			<div class="navbar-home navbar-element" onclick="handleNavbar(0)">
 				<div class="dot"><i class="fa fa-lg fa-home" aria-hidden="true"></i></div>
+				<h2>Acasa</h2>
 			</div>
 			<div class="navbar-beneficii navbar-element" onclick="handleNavbar(1)">
 				<div class="dot"><i class="fa fa-lg fa-calendar-check-o" aria-hidden="true"></i></div>
+				<h2>Calendar</h2>
 			</div>
 			<div class="navbar-recomandari navbar-element" onclick="handleNavbar(2)">
 				<div class="dot"></div>
+
+				<h2>Beneficii</h2>
 			</div>
 			<div class="navbar-informatii navbar-element" onclick="handleNavbar(3);">
-				<div class=" dot"><i class="fa fa-lg fa-exclamation" aria-hidden="true"></i></div>
+				<div class=" dot"><i class="fa fa-lg fa-exclamation" aria-hidden="true"></i>
+				</div>
+				<h2>Restrictii</h2>
 			</div>
 			<div class="navbar-despre navbar-element" onclick="
 				
@@ -309,7 +315,7 @@
 				<div class="dot">
 
 				</div>
-				<h2>ceva</h2>
+				<h2>Despre</h2>
 			</div>
 		</div>
 
