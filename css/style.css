@@ -22,8 +22,9 @@ section:nth-child(2) {
 }
 
 section:nth-child(3) {
-  background-color: #0ff;
+  /* background-color: #0ff; */
   height: 100vh;
+  display: flex;
 }
 
 section:nth-child(4) {
@@ -70,7 +71,7 @@ span {
 .recomandari-section {
   height: 100vh;
   width: 100%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .Informatii-si-restrictii {

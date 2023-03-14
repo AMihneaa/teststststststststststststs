@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="/css/informatii.css">
 	<link rel="stylesheet" href="/css/despre.css">
 	<link rel="stylesheet" href="/css/footer.css">
+	<link rel="stylesheet" href="/css/beneficii.css">
+	<link rel="stylesheet" href="/css/recomandari.css">
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
@@ -58,6 +60,41 @@
 
 		<section id="recomandari" class="recomandari-section section">
 
+			<div class="recomandari-div-beneficii" style="">
+				<h1>Beneficii</h1>
+				<main>
+					<ol class="gradient-list">
+						<li>Fiecare donator primeste un card de bonuri de
+							masa in valoare de 70 de lei.</li>
+						<li>Anazile pentru identificarea virusurilor.</li>
+						<li>Carnet de donator ce iti aduce diverse avantaje.</li>
+						<li>O zi libera de la locul de munca in ziua donarii.</li>
+					</ol>
+				</main>
+			</div>
+
+			<div class="recomandari-div-info">
+				<h1>Recomandari</h1>
+				<!-- <ul class="info-ul">
+					<li class="info-li">
+						Este recomandat sa aveti 8 ore de somn.
+					</li>
+					<li class="info-li">
+						Este recomandat sa consumati o mancare usoara si sa va hidratati inainte de donare.
+					</li>
+					<li class="info-li">
+						Este recomandat cat mai putin efort fizic inaintea donarii.
+					</li>
+				</ul> -->
+				<main>
+					<ol class="gradient-list">
+						<li>Este recomandat sa aveti 8 ore de somn.</li>
+						<li>Este recomandat sa consumati o mancare usoara si sa va hidratati inainte de donare.</li>
+						<li>Este recomandat cat mai putin efort fizic inaintea donarii.</li>
+					</ol>
+				</main>
+			</div>
+
 		</section>
 
 		<section id="informatii" class="Informatii-si-restrictii section">
@@ -68,16 +105,20 @@
 				<div class="ag-courses_box">
 					<div class="ag-courses_item">
 						<a class="ag-courses-item_link">
-							<div class="ag-courses-item_bg"></div>
+							<div class="ag-courses-item_bg" ;"></div>
 
 							<div class="ag-courses-item_title">
-								UI/Web&amp;Graph design for teenagers 11-17&#160;years old
+								<i class="fa fa-beer" style="z-index: 100;"></i>
+								<div class="titleag">Consum alcool</div>
+
 							</div>
 
 							<div class="ag-courses-item_date-box">
 
 								<span class="ag-courses-item_date">
-									04.11.2022
+									<div class="contentag">
+										Nu se consuma alcool cu 24 de ore inainte de a dona
+									</div>
 								</span>
 							</div>
 						</a>
@@ -88,13 +129,14 @@
 							<div class="ag-courses-item_bg"></div>
 
 							<div class="ag-courses-item_title">
-								UX/UI Web-Design&#160;+ Mobile Design
+								<i class="fa fa-weight-scale"></i>
+								<div class="titleag">Greutate</div>
+
 							</div>
 
 							<div class="ag-courses-item_date-box">
-								Start:
 								<span class="ag-courses-item_date">
-									04.11.2022
+									Greutatea minima ceruta este de 50 de kg
 								</span>
 							</div>
 						</a>
@@ -105,13 +147,13 @@
 							<div class="ag-courses-item_bg"></div>
 
 							<div class="ag-courses-item_title">
-								UX/UI Web-Design&#160;+ Mobile Design
+								<i class="fa fa-ban"></i>
+								<div class="titleag">Fumat</div>
 							</div>
 
 							<div class="ag-courses-item_date-box">
-								Start:
 								<span class="ag-courses-item_date">
-									04.11.2022
+									Nu fumati in ziua donarii
 								</span>
 							</div>
 						</a>
@@ -122,13 +164,14 @@
 							<div class="ag-courses-item_bg"></div>
 
 							<div class="ag-courses-item_title">
-								Graphic Design
+								<i class="fa fa-heartbeat"></i>
+								<div class="titleag">Interventii chirurgicale</div>
 							</div>
 
 							<div class="ag-courses-item_date-box">
-								Start:
 								<span class="ag-courses-item_date">
-									04.11.2022
+									Sa nu aveti interventii chirurgicale in ultimele 3 saptamana ( regula se aplica si
+									in cazul persoanelor care urmeaza tratament medical)
 								</span>
 							</div>
 						</a>
@@ -139,13 +182,14 @@
 							<div class="ag-courses-item_bg"></div>
 
 							<div class="ag-courses-item_title">
-								Motion Design
+								<i class="fa fa-paint-brush"></i>
+								<div class="titleag">Tatuaj/Piercing</div>
 							</div>
 
 							<div class="ag-courses-item_date-box">
-								Start:
+
 								<span class="ag-courses-item_date">
-									30.11.2022
+									Nu se poate dona daca ai facut un tatuaj/piercing in ultimele 6 luni
 								</span>
 							</div>
 						</a>
@@ -156,13 +200,14 @@
 							<div class="ag-courses-item_bg"></div>
 
 							<div class="ag-courses-item_title">
-								Motion Design
+								<i class="fa fa-thermometer"></i>
+								<div class="titleag">Simptome</div>
 							</div>
 
 							<div class="ag-courses-item_date-box">
-								Start:
 								<span class="ag-courses-item_date">
-									30.11.2022
+									Sa nu aveti simptome de raceala sau sa nu fiti vaccinati cu 48 de ore
+									inainte de a dona
 								</span>
 							</div>
 						</a>
@@ -177,21 +222,37 @@
 				<h2>Persoane de contact</h2>
 			</div>
 			<div class="container">
-				<div class="card">
+				<div class="card first">
 					<img src="/img/prost2" alt="Person" class="card__image">
 					<p class="card__name">Teodor Furtuna Gabriel</p>
+					<div class="Nrtel">
+						<div class="textnr">Numar telefon:</div>
+						<div class="numarphone">0712345678</div>
+					</div>
 				</div>
 				<div class="card">
-					<img src="/img/prost.jpg" alt="Person" class="card__image">
+					<img src="/img/prost2" alt="Person" class="card__image">
 					<p class="card__name">Teodor Furtuna Cristian</p>
+					<div class="Nrtel">
+						<div class="textnr">Numar telefon:</div>
+						<div class="numarphone">0712345678</div>
+					</div>
 				</div>
 				<div class="card">
-					<img src="/img/prost.jpg" alt="Person" class="card__image">
+					<img src="/img/prost2" alt="Person" class="card__image">
 					<p class="card__name">Teodor Furtuna Ionut</p>
+					<div class="Nrtel">
+						<div class="textnr">Numar telefon:</div>
+						<div class="numarphone">0712345678</div>
+					</div>
 				</div>
-				<div class="card">
-					<img src="/img/prost.jpg" alt="Person" class="card__image">
+				<div class="card last">
+					<img src="/img/prost2" alt="Person" class="card__image">
 					<p class="card__name">Teodor Furtuna Ionut</p>
+					<div class="Nrtel">
+						<div class="textnr">Numar telefon:</div>
+						<div class="numarphone">0712345678</div>
+					</div>
 				</div>
 			</div>
 
